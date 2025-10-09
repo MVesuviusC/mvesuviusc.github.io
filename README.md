@@ -2,7 +2,7 @@
 
 This is under construction. Have a poorly made AI image:
 
-<p><img align="left" src="under_construction.jpg" alt="just, what?" width="500" height="500"/></p>
+<p><img align="center" src="under_construction.jpg" alt="just, what?" width="500" height="500"/></p>
 
 ## Training
 
