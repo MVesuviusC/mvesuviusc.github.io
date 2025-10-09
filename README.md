@@ -10,7 +10,10 @@ This is under construction. Have a poorly made AI image:
 
 ## Computational skills
 
-
+- High level expertise with R, bash and perl
+- Moderate capabilities working with python
+- Comfortable working with linux in an HPC environment
+- Experience with a variety of bioinformatics commandline tools such as samtools, bowtie2, hisat2, qiime, awk, etc.
 
 
 ## Publications
