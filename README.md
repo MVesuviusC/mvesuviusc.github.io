@@ -69,11 +69,11 @@ https://journals.biologists.com/bio/article/10/7/bio058855/270960/High-throughpu
 ### Single cell RNAseq on malaria parasites
 Working with the Serre lab, I helped analyze single cell RNAseq data from malaria parasites from blood samples. The aim was to capture the transcriptional changes that occur during the *Plasmodium* lifecycle. This presented some interesting challenges during the analysis. For one, genomic reference data for this species was not as readily available or complete as for many model organisms. This was particularly important when doing 10x 3' scRNAseq because the annotation of 3' UTRs was very incomplete. This meant that the standard 10x alignment software (CellRanger) would not properly assign reads to many genes. We ended up writing custom code to assign reads into genomic windows, and counted reads in these windows instead of genes. We then assigned each window to the most likely gene based on proximity. This allowed us to recover a lot more information from the data than we would have otherwise. The data came out great and the PCA of the data really beautifully captured the lifecycle.
 
-<video controls>
+<video width="640" height="480" controls>
   <source src="https://doi.org/10.1371/journal.pbio.3000711.s007" type="video/mp4">
 </video>
 
-width="320" height="240" 
+
 
 ## Miscellaneous
 
