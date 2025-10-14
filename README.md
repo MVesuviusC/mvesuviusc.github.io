@@ -1,4 +1,4 @@
-# GitHub page for Matt Cannon
+# All about Mattnew V. Cannon
 
 This is under construction. Have a poorly made AI image:
 
@@ -8,18 +8,37 @@ This is under construction. Have a poorly made AI image:
 
 ## Computational skills
 
+- Familiar with best practice concepts for software engineering such as modularity, documentation, testing, version control, etc.
+- Comfortable working with large datasets
 - High level expertise with R, bash and perl
 - Moderate capabilities working with python
 - Comfortable working with linux in an HPC environment
 - Experience with a variety of bioinformatics commandline tools such as samtools, bowtie2, hisat2, qiime, awk, etc.
-
+- Some experience with containerization using singularity and docker
+- Experience with version control using git and github
+- Some experience with machine learning approaches such as neural networks and random forests
+- I don't generally think of this as machine learning, (though apparently it is) but I have a lot of experience with statistical modeling using linear models, mixed models, PCA, clustering and other approaches
+- Some experience with cloud computing using AWS
+- Extensive experience working with genomics datasets including
+    - RNAseq
+    - Single cell data
+        - Transcriptomics
+        - ATACseq
+        - Multiome
+        - Single cell whole genome
+    - Spatial transcriptomics
+    - Cut & run epigenomics
+    - DNA methylation (RRBS, amplicon bisulfite sequencing)
+    - Variant calling
+    - Phylogenetics
+    - Amplicon sequencing and microbiome characterization (16S, 18S, ITS, COI, etc)
+        - Primer design to capture broad taxonomic groups and quantitative assessment of primer performance
+    - Whole genome sequencing
 
 ## Publications
-My Google Scholar profile:
-https://scholar.google.com/citations?user=w3XiPdEAAAAJ&hl=en
+[My Google Scholar profile](https://scholar.google.com/citations?user=w3XiPdEAAAAJ&hl=en)
 
-My NCBI bibliography:
-https://www.ncbi.nlm.nih.gov/myncbi/collections/mybibliography/
+[My NCBI bibliography](https://www.ncbi.nlm.nih.gov/myncbi/collections/mybibliography/)
 
 ## Select projects
 
@@ -48,6 +67,13 @@ https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-018-0581-6
 https://journals.biologists.com/bio/article/10/7/bio058855/270960/High-throughput-detection-of-eukaryotic-parasites
 
 ### Single cell RNAseq on malaria parasites
+Working with the Serre lab, I helped analyze single cell RNAseq data from malaria parasites from blood samples. The aim was to capture the transcriptional changes that occur during the *Plasmodium* lifecycle. This presented some interesting challenges during the analysis. For one, genomic reference data for this species was not as readily available or complete as for many model organisms. This was particularly important when doing 10x 3' scRNAseq because the annotation of 3' UTRs was very incomplete. This meant that the standard 10x alignment software (CellRanger) would not properly assign reads to many genes. We ended up writing custom code to assign reads into genomic windows, and counted reads in these windows instead of genes. We then assigned each window to the most likely gene based on proximity. This allowed us to recover a lot more information from the data than we would have otherwise. The data came out great and the PCA of the data really beautifully captured the lifecycle.
+
+<video width="320" height="240" controls>
+  <source src="https://doi.org/10.1371/journal.pbio.3000711.s007" type="video/mp4">
+</video>
+
+
 
 ## Miscellaneous
 
