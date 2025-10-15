@@ -1,23 +1,23 @@
-# All about Mattnew V. Cannon
-
-This is under construction. Have a poorly made AI image:
-
-<p><img align="center" src="under_construction.jpg" alt="just, what?" width="500" height="500"/></p>
+# All about Matthew V. Cannon, PhD
 
 ## Training
+My undergraduate work was done studing biology at the University of Akron. I moved to the University of Rochester for my PhD and my advisor (Carl Pinkert) ended up moving to Auburn University's Vet school half way through, so I ended up with a masters from UR and my PhD from Auburn. After I finished my PhD I moved to the Cleveland Clinic Genomic Medicine Institute for a postdoc in the Serre lab where I took a deep dive into learning bioinformatics, genomics and programming. I worked with David for over ten years and followed him when he moved to the University of Maryland, Baltimore to the the Institute for Genome Sciences. I worked there and got promoted to non-tenure track faculty (Research Associate). I moved to Nationwide Children's Hospital in Columbus, Ohio as a Senior Bioinformatics Scientist. Initially I provided bioinformatics support primarily for Emily Theisen, Ryan Roberts and Geneveive Kendall. I also did miscellaneous projects for other investigators. After a couple of years I moved fully into Ryan's lab and now oversee all of the computational work in the lab. 
+
+## Disambiguation
+Funnily enough, there is another Matthew Cannon at NCH who is also a bioinformatician, also studies cancer, is also a very friendly dude and looks a bit like me. If you look for me on NCH's website, be sure you're not mistaking me with the other Matt Cannon who works for the [Wagner lab](https://www.nationwidechildrens.org/specialties/institute-for-genomic-medicine/research-labs/wagner-lab).
 
 ## Computational skills
 
-- Familiar with best practice concepts for software engineering such as modularity, documentation, testing, version control, etc.
-- Comfortable working with large datasets
+- Familiar with best practice concepts for software engineering such as compartmentalization, modularity, documentation, unit testing, version control, etc.
 - High level expertise with R, bash and perl
 - Moderate capabilities working with python
 - Comfortable working with linux in an HPC environment
-- Experience with a variety of bioinformatics commandline tools such as samtools, bowtie2, hisat2, qiime, awk, etc.
+- Comfortable working with large datasets
+- Experience with a variety of standard bioinformatics commandline tools such as samtools, bcftools, bowtie2, hisat2, qiime, awk, etc.
 - Some experience with containerization using singularity and docker
-- Experience with version control using git and github
+- Experience with version control using git and GitHub
 - Some experience with machine learning approaches such as neural networks and random forests
-- I don't generally think of this as machine learning, (though apparently it is) but I have a lot of experience with statistical modeling using linear models, mixed models, PCA, clustering and other approaches
+- I don't generally think of this as machine learning, (though apparently it is) but I have a lot of experience with statistical modeling using linear models, PCA, clustering and other approaches
 - Some experience with cloud computing using AWS
 - Extensive experience working with genomics datasets including
     - RNAseq
